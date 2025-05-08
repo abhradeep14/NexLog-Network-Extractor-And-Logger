@@ -1,10 +1,3 @@
-# NexLog-Network-Extractor-And-Logger
-
-Thank you! Here's a well-structured, professional, and smart **`README.md`** file for your **NexLog** project, including a focused **"Future Work"** section that hints at your research-driven goals with the captured data.
-
----
-
-````markdown
 # NexLog – Intelligent Network Flow Monitoring
 
 **NexLog** is a lightweight, high-performance service that captures and analyzes network traffic flows at a deep level using raw socket inspection. It operates silently in the background, turning raw packet data into rich, structured, and actionable insights.
@@ -31,16 +24,16 @@ Thank you! Here's a well-structured, professional, and smart **`README.md`** fil
 
 1. Clone the repo:
 
-```bash
-git clone https://github.com/yourusername/NexLog.git
-cd NexLog
-````
+   ```bash
+   git clone https://github.com/yourusername/NexLog.git
+   cd NexLog
+   ```
 
 2. Build (Windows):
 
-```bash
-cl /FeNexLog.exe /W4 /O2 network_monitor2.c ws2_32.lib wininet.lib
-```
+   ```bash
+   cl /FeNexLog.exe /W4 /O2 network_monitor2.c ws2_32.lib wininet.lib
+   ```
 
 3. Edit `network_monitor.conf` to set paths and options.
 
@@ -73,11 +66,11 @@ Each captured flow is logged as a JSON line:
 
 ## 📈 Use Cases
 
-* Building feature-rich datasets for ML-based anomaly detection
-* Passive network intelligence gathering
-* Lightweight NIDS foundations
-* Profiling normal vs abnormal traffic behavior
-* DNS monitoring and entropy-based payload flagging
+- Building feature-rich datasets for ML-based anomaly detection  
+- Passive network intelligence gathering  
+- Lightweight NIDS foundations  
+- Profiling normal vs abnormal traffic behavior  
+- DNS monitoring and entropy-based payload flagging  
 
 ---
 
@@ -85,10 +78,10 @@ Each captured flow is logged as a JSON line:
 
 The structured flow data collected by NexLog is intended for deeper network security research, including:
 
-* Training **Reinforcement Learning** and **Meta-Learning** models to detect anomalous behavior
-* Using **custom optimization algorithms** (e.g., Golden Jackal) to fine-tune detection accuracy
-* Building an **Insider Threat Detection System** using behavioral baselines
-* Extending NexLog to support real-time alerts and forensic flow reconstruction
+- Training **Reinforcement Learning** and **Meta-Learning** models to detect anomalous behavior  
+- Using **custom optimization algorithms** (e.g., Golden Jackal) to fine-tune detection accuracy  
+- Building an **Insider Threat Detection System** using behavioral baselines  
+- Extending NexLog to support real-time alerts and forensic flow reconstruction  
 
 By combining low-level visibility with intelligent post-processing, NexLog serves as both a data engine and a research enabler.
 
@@ -103,16 +96,3 @@ MIT License. See `LICENSE` for details.
 ## 🧠 Author
 
 **Abhradeep** – Network security researcher, system programmer, and builder of purposeful tools.
-
-```
-
----
-
-Let me know if you want:
-- A GitHub Actions workflow
-- A systemd/Linux version of NexLog
-- A `network_monitor.conf` template
-
-Happy to help grow NexLog into a full suite!
-```
-
